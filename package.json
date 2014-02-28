@@ -1,0 +1,19 @@
+{
+  "name": "extract-requires",
+  "version": "0.0.0",
+  "description": "Extract string literal arguments passed to require()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "require"
+  ],
+  "author": "Andrew de Andrade <andrew@deandrade.com.br>",
+  "license": "Mozilla Public License v2",
+  "dependencies": {
+    "graceful-fs": "^2.0.2",
+    "esprima": "^1.0.4",
+    "esprima-pretty-error": "git+ssh://git@github.com:malandrew/esprima-pretty-error.git#master"
+  }
+}
