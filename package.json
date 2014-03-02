@@ -2,9 +2,10 @@
   "name": "extract-requires",
   "version": "0.0.0",
   "description": "Extract string literal arguments passed to require()",
-  "main": "index.js",
+  "main": "lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha test/test.js",
+    "posttest": "./node_modules/eslint/bin/eslint.js -c test/eslint.json */**.js"
   },
   "keywords": [
     "require"
@@ -15,5 +16,10 @@
     "graceful-fs": "^2.0.2",
     "esprima": "^1.0.4",
     "esprima-pretty-error": "git+ssh://git@github.com:malandrew/esprima-pretty-error.git#master"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "eslint": "^0.4.1",
+    "underscore": "^1.6.0"
   }
 }
