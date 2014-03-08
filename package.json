@@ -15,7 +15,9 @@
   "dependencies": {
     "graceful-fs": "^2.0.2",
     "esprima": "^1.0.4",
-    "esprima-pretty-error": "git+ssh://git@github.com:malandrew/esprima-pretty-error.git#master"
+    "esprima-pretty-error": "git+ssh://git@github.com:malandrew/esprima-pretty-error.git#master",
+    "xtend": "^2.1.2",
+    "underscore": "^1.6.0"
   },
   "devDependencies": {
     "mocha": "^1.17.1",
